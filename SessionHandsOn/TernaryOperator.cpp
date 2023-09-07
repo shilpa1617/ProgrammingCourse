@@ -2,10 +2,10 @@
 using namespace std;
 
 int main(){
-    int Person1Age,Person2Age;
+    int person1Age,person2Age;
     cout<<"Enter two person ages:";
-    cin>>Person1Age>>Person2Age;
-    int result=(Person1Age>Person2Age)?Person1Age:Person2Age;
+    cin>>person1Age>>person2Age;
+    int result=(person1Age>person2Age)?person1Age:person2Age;
     cout<<result<<endl;
     return 0;
 }
