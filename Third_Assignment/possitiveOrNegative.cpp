@@ -5,7 +5,7 @@ int main(){
     int number;
     cin>>number;
     if(number>0){
-        cout<<number<<" is possitive number "<<endl;
+        cout<<number<<" is positive number "<<endl;
     }
     else if(number<0){
          cout<<number<<" is negative number "<<endl;
