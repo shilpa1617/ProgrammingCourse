@@ -6,7 +6,7 @@ int main(){
     cin>>number;
     while(i<=number){
          cout<<"Even number is :"<<i<<endl;
-        i=i+2; 
+        i+=2; 
     }
     return 0;
 }
