@@ -6,7 +6,9 @@ int sum(int number1,int number2){
     return result;
 }
 int main(){
-    int sumResult=sum(20,30);
+    int  value1,value2;
+    cin>>value1>>value2;
+    int sumResult=sum(value1,value2);
     cout<<"Sum is :"<<sumResult<<endl;
 return 0;
 }
