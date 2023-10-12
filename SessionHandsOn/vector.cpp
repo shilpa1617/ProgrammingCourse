@@ -10,7 +10,7 @@ int main(){
     numbers.push_back(40);
     numbers.push_back(70);
     cout<<numbers[3]<<endl;
-    numbers[3]=50;
+    numbers[3]=50; //update
     cout<<numbers[3]<<endl;
 
     return 0;
