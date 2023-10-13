@@ -21,7 +21,7 @@ int main()
             break;
         }
     }
-    if (found)
+    if (found==true)
     {
         cout << anotherNumber << " is there in the array " << endl;
     }
