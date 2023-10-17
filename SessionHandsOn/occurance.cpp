@@ -15,15 +15,17 @@ int main()
         }
     }
     //int count = 0;
-    int occurance[51] = {0};
+    
     for (int i = 0; i < N; i++)
     {
-        occurance[numbers[i]]++;
+        int count =0;
+        for(int j=0;j<N;j++){
+            if(numbers[i]==numbers[j]){
+                count++;
+            }
+        }
+        cout<<numbers[i]<< "  appeared "<<count<<" times "<<endl;
     }
-    for(int i=0;i<N;i++){
-        cout<<numbers[i]<< "  appeared "<<occurance[numbers[i]]<<" times "<<endl;
-    }
-    
 
     return 0;
 }
