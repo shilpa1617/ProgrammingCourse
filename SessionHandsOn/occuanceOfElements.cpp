@@ -27,10 +27,11 @@ int main()
                 {
                     count++;
                     visit[numbers[i]] = 1;
+                    
                 }
             }
+            cout << numbers[i] << "  appeared " << count << " times " << endl;
         }
-         cout<<numbers[i]<< "  appeared "<<count<<" times "<<endl;
     }
 
     return 0;
