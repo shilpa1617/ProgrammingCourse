@@ -1,4 +1,3 @@
-// insertionAtTail
 #include <iostream>
 using namespace std;
 
