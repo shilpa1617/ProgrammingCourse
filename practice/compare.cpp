@@ -5,24 +5,16 @@ int main()
 {
     int N;
     cin >> N;
-    int array[N];
-    for (int i = 0; i < N; i++)
-    {
-        cin >> array[i];
-    }
     int check;
     cin >> check;
-    bool flag = true;
+    bool flag = false;
+    int number;
     for (int i = 0; i < N; i++)
     {
-        if (array[i] == check)
+        cin>>number;
+        if (number == check)
         {
             flag = true;
-            break;
-        }
-        else
-        {
-            flag = false;
         }
     }
     if (flag)
