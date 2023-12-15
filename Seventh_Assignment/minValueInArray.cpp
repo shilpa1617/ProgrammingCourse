@@ -10,7 +10,7 @@ int main()
     {
         cin >> numbers[i];
     }
-        int minimun = 0;
+        int minimun=numbers[0];
         for (int i = 0; i < N; i++)
         {
             if (numbers[i] < minimun)
