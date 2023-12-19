@@ -14,7 +14,7 @@ int main(){
     pointer=&variable; 
 
     cout<<pointer<<endl;
-    cout<<*pointer<<endl;
+    //cout<<*pointer<<endl;
 
     return 0;
 }
