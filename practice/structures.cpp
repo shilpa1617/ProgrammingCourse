@@ -10,9 +10,12 @@ struct  employee{
 
 int main(){
     struct employee Sampath={1,"Sampath",20.00," C++ Developer"};
-    struct employee Shilpa={2,"Shilu",10.00,"Java Developer"};
-    cout<<Sampath.id<<endl;
-    cout<<Shilpa.id<<endl;
-    cout<<Sampath.role<<endl;
+    struct employee *ptr;
+    ptr=&Sampath;
+    // struct employee Shilpa={2,"Shilu",10.00,"Java Developer"};
+    cout<<ptr->id<<endl;
+    cout<<(*ptr).name<<endl;
+    // cout<<Shilpa.id<<endl;
+    // cout<<Sampath.role<<endl;
     return  0;
 }
